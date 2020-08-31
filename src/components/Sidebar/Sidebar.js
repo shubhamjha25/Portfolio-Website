@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Sidebar.css';
 
 const Sidebar = () => {
     return (
-        <>
-            <h2>Sidebar</h2>
-        </>
+        <div className="sidenav">
+            Sidebar
+        </div>
     );
 }
 
