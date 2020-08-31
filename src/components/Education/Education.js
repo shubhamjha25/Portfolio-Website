@@ -9,8 +9,7 @@ class Education extends React.Component{
         return (
         <section id="id2">
         <div className="divTimeline">
-                
-                <hr size="12" color="white" />
+                <h1 style={{textAlign: 'center', color: '#FFFAFA', paddingBottom: '20px'}}>Educational Information</h1>
                 <section id="timeline">
                     
                     <article>
@@ -57,7 +56,6 @@ class Education extends React.Component{
                         </div>
                     </article>
                 </section>
-                <hr size="12" color="white" />
             </div>
             </section>
     )
