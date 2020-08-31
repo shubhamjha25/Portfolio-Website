@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Projetcs = () => {
+const Projects = () => {
     return (
         <>
-            <h2>Projetcs</h2>
+            <h2>Projects</h2>
         </>
     );
 }
 
-export default Projetcs;
+export default Projects;
