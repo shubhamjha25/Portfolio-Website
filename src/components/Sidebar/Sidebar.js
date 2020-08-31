@@ -10,9 +10,11 @@ const Sidebar = () => {
                 <NavLink exact to="/education"><i className="fa fa-graduation-cap"></i></NavLink>
                 <NavLink exact to="/skills"><i className="fa fa-cogs"></i></NavLink>
                 <NavLink exact to="/projects"><i className="fa fa-tasks"></i></NavLink>
-                <a href="https://github.com/shubhamjha25" target="_blank"><i className="fa fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/shubham-jha-252001/" target="_blank"><i className="fa fa-linkedin"></i></a>
-                <a href="#"><i className="fa fa-facebook"></i></a>
+                <div className="social-icons">
+                    <a href="https://github.com/shubhamjha25" target="_blank"><i className="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shubham-jha-252001/" target="_blank"><i className="fa fa-linkedin"></i></a>
+                    <a href="#"><i className="fa fa-facebook"></i></a>
+                </div>
             </div>
     );
 }

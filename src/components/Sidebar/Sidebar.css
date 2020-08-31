@@ -20,10 +20,10 @@
     display: block;
   }
 
-  .fa-github {
-      margin-top: 40vh;
+  .social-icons {
+    margin-top: 47vh;
   }
-  
+
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
     color: #f1f1f1;
