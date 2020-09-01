@@ -8,7 +8,7 @@ import Skills from './Skills/Skills'
 import Loading from './LoadingComponent';
 import './Menu.css'
 import 'font-awesome/css/font-awesome.min.css';
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 const Menu = () => {
     return(
@@ -42,7 +42,7 @@ class Main extends React.Component {
     componentDidMount(){
       setTimeout(() =>{
         this.setState( {loadingTimeOver: true})
-      },3000);
+      },500);
     }
     render(){
       return this.state.loadingTimeOver === false ? this.callLoader() : this.loadingOver();
