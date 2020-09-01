@@ -15,7 +15,19 @@
     margin: 20px auto;
     position: relative;
     margin-bottom: 30px;
+    animation: fadeEdu 1100ms 0ms forwards;
   }
+
+  @keyframes fadeEdu {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    } to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
   section#timeline:before {
     content: '';
     display: block;
@@ -86,7 +98,7 @@
   section#timeline article div.inner h2 {
     padding: 15px;
     margin: 0;
-    color: #fff;
+    color: rgb(142, 178, 178);
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: -1px;

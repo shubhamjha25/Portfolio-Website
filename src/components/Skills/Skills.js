@@ -13,7 +13,7 @@ import npm from '../../images/npm.png';
 const Skills = () => {
     return (
         <>
-            <h1 className="skill-header">Skills</h1>
+            <h1 className="skill-header">SKILLS</h1>
             <h2 className="skill-para">Some Tools & Technologies That I've Been Working With </h2>
 
             <div className="skill-pics">

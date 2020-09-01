@@ -30,6 +30,8 @@ const Projects = () => {
 
     return (
         <>
+
+            <h1 style={{textAlign: 'center', fontSize: '28px', color: 'rgb(28, 134, 76)', paddingBottom: '20px'}}>PROJECT WORK</h1>
             <div className="portfolio__labels">
                 <a active={filter === 'all'} onClick={() => setFilter('all')}>ALL</a>
                 <a active={filter === 'web'} onClick={() => setFilter('web')}>HTML/CSS/JS</a>

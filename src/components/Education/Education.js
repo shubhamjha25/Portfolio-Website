@@ -9,7 +9,7 @@ class Education extends React.Component{
         return (
         <section id="id2">
         <div className="divTimeline">
-                <h1 style={{textAlign: 'center', color: '#FFFAFA', paddingBottom: '20px'}}>Educational Information</h1>
+                <h1 style={{textAlign: 'center', fontSize: '28px', color: 'rgb(28, 134, 76)', paddingBottom: '20px'}}>EDUCATIONAL INFORMATION</h1>
                 <section id="timeline">
                     
                     <article>
