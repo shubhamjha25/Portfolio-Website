@@ -17,11 +17,18 @@
 } 
 
 .skill-pics img {
-    transition: transform 0.3s ease;
+    animation: fadeInImg 1100ms 0ms forwards;
 }
-.skill-pics img:hover {
-    transform: scale(1.37);
-} 
+
+@keyframes fadeInImg {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    } to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
 
 @media(max-width: 768px) {
     .skill-para {
@@ -41,6 +48,7 @@
         color: white;
         text-align: center;
         margin-bottom: 35px;
+        font-size: 20px;
     }
 
     .skill-pics {
