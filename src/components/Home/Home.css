@@ -1,6 +1,11 @@
+.sj-logo{
+    padding-left: 5rem;
+}
+
 .flex-wrap {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -3rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 2rem;
+    color: white;
 }

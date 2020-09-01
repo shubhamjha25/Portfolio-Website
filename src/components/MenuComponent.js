@@ -1,10 +1,11 @@
 import React from 'react';
 import Sidebar from './Sidebar/Sidebar';
-import Home from './Home/Home'
-import About from './About/About'
-import Education from './Education/Education'
-import Projects from './Projects/Projects'
-import Skills from './Skills/Skills'
+import Home from './Home/Home';
+import About from './About/About';
+import Education from './Education/Education';
+import Projects from './Projects/Projects';
+import Skills from './Skills/Skills';
+import JsonDoc from './JsonDoc/JsonDoc';
 import Loading from './LoadingComponent';
 import './Menu.css'
 import 'font-awesome/css/font-awesome.min.css';
@@ -21,6 +22,7 @@ const Menu = () => {
                 <Route exact path="/education" component= {Education} />
                 <Route exact path="/skills" component = {Skills} />
                 <Route exact path="/projects" component = {Projects} />
+                <Route exact path="/json" component = {JsonDoc} />
             </Switch>
             </div>
         

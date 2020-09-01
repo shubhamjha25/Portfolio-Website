@@ -1,0 +1,31 @@
+pre{
+    color: white;
+    font-size: 20px;
+    animation: fadeInJSON 1100ms 0ms forwards;;
+}
+
+@keyframes fadeInJSON {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    } to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px){
+    pre{
+        font-size: 20px;
+        overflow: auto;
+    }
+}
+
+@media(max-width: 576px){
+    pre{
+        font-size: 20px;
+        overflow: auto;
+    }
+}
