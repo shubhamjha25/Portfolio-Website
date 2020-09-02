@@ -34,7 +34,7 @@
 
 .card-wrap {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     transition: transform 0.25s ease;
     animation: fadeInAnimation ease 2s; 
     animation-iteration-count: 1; 

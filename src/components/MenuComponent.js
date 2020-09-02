@@ -44,7 +44,7 @@ class Main extends React.Component {
     componentDidMount(){
       setTimeout(() =>{
         this.setState( {loadingTimeOver: true})
-      },500);
+      },2500);
     }
     render(){
       return this.state.loadingTimeOver === false ? this.callLoader() : this.loadingOver();

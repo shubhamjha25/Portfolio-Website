@@ -7,7 +7,7 @@ const About = () => {
     return(
         <>
             <div className="abt-wrap">
-                <h1 style={{color: 'rgb(28, 134, 76)'}}>About Me</h1>
+                <h1 style={{color: 'rgb(28, 134, 76)'}}>ABOUT ME</h1>
                 <div className="first">
                     <div className="abt-left">   
                         <p>Innovative, Ambitious and a Forward-Thinking Tech Enthusiast ready to apply the skills he posses. Don't know whether I'm a quick learner or a slow learner, but I give my complete dedication and determination to the things I love to do. Always eager to learn new concepts of Computer Science.</p>

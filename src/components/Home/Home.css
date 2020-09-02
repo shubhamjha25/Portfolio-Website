@@ -1,11 +1,90 @@
 .sj-logo{
-    padding-left: 5rem;
+    width: 455px;
+    margin-left: -25px;
+    margin-bottom: 40px;
 }
 
 .flex-wrap {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 2rem;
     color: white;
+}
+
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+.text-rotate {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.home-second {
+    color: white;
+    padding-left: 7.5rem;
+    padding-top: 3rem;
+}
+
+.home-second a {
+    padding: 10px;
+    padding-right: 16px;
+    border-radius: 20px;
+    color: white;
+    transition: hover 4s ease;
+}
+
+.home-second a:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+   
+@keyframes blinking-cursor {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .flex-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 576px) {
+    .flex-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-second {
+        color: white;
+        padding-left: 0rem;
+        padding-top: 3rem;
+    }
+    .home-second h2{  
+        font-size: 20px;
+    }
+    .flex-wrap .left h2{
+        margin-top: -20px;
+    }
+    .flex-wrap .left h1{
+        font-size: 25px;
+    }
+    .flex-wrap .left img {
+        margin-top: -20px;
+        width: 300px;
+    }
+    .flex-wrap .right img {
+        width: 300px;
+        margin-top: 95px;
+    }
 }
