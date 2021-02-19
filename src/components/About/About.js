@@ -26,7 +26,7 @@ const About = () => {
                         <a href="https://github.com/shubhamjha25" target="_blank"><i className="fa fa-2x fa-github"></i></a>
                         <a href="mailto:shubham.jha2001m@gmail.com"><i className="fa fa-2x fa-envelope"></i></a>
                         <a href="https://www.linkedin.com/in/shubham-jha-252001/" target="_blank"><i className="fa fa-2x fa-linkedin"></i></a>
-                        <a href=""><i className="fa fa-2x fa-twitter"></i></a>
+                        <a href="https://twitter.com/shubhamjha25" target="_blank"><i className="fa fa-2x fa-twitter"></i></a>
                         <a href="https://t.me/shubhamjha25" target="_blank"><i className="fa fa-2x fa-telegram"></i></a>
                         <a href=""><i className="fa fa-2x fa-medium"></i></a>
                     </div>

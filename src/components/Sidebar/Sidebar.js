@@ -14,6 +14,7 @@ const Sidebar = () => {
                 <div className="social-icons">
                     <a href="https://github.com/shubhamjha25" target="_blank" title="GitHub (shubhamjha25)"><i className="fa fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/shubham-jha-252001/" target="_blank" title="LinkedIn"><i className="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/shubhamjha25" target="_blank" title="Twitter (@shubhamjha25)"><i className="fa fa-twitter"></i></a>
                     <a href="#"><i className="fa fa-facebook" title="Facebook"></i></a>
                 </div>
             </div>
