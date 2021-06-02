@@ -10,6 +10,8 @@ import git from '../../images/git.png';
 import heroku from '../../images/heroku.png';
 import npm from '../../images/npm.png';
 
+const nodejs = "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png";
+
 const Skills = () => {
     return (
         <>
@@ -42,13 +44,13 @@ const Skills = () => {
 
                 <img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_a0b9e371c09d15b9a0b48ed84b31ed35/mongodb-atlas.png" width="70px" alt="MongoDB" />
 
-                <img src="https://buttercms.com/static/images/tech_banners/ExpressJS.png" width="100px" alt="Express" />
+                <img src="https://www.sohamkamani.com/static/65137ed3c844d05124dcfdab28263c21/express-routing-logo.png" width="100px" alt="Express" />
                 
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="70px" alt="ReactJS" />
 
-                <img src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png" width="70px" alt="NodeJS" />
+                <img src={nodejs} width="70px" alt="NodeJS" />
 
-                <img src="https://codedistrict.io/wp-content/uploads/2017/12/reduxLogo.png" width="70px" alt="Redux" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" width="70px" alt="Redux" />
             
                 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" width="70px" alt="PHP" />
 
