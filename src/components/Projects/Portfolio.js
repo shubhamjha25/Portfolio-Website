@@ -10,6 +10,12 @@ import p9 from '../../images/p9.jpg';
 
 export const portfolio = [
     {
+      name: 'Clarify',
+      category: ['all', 'react'],
+      img: "https://raw.githubusercontent.com/shubhamjha25/Clarify/main/src/components/img/Clarify.png",
+      url: 'https://github.com/shubhamjha25/Clarify'  
+    },
+    {
       name: 'COVID-19 Tracker',
       category: ['all', 'web'],
       img: p3,
@@ -26,6 +32,12 @@ export const portfolio = [
       category: ['all', 'php'],
       img: p5,
       url: 'https://github.com/shubhamjha25/User-Registration-System'
+    },
+    {
+      name: 'MindMap',
+      category: ['all', 'react'],
+      img: "https://raw.githubusercontent.com/shubhamjha25/MindMap/master/client/src/logo.PNG",
+      url: "https://github.com/shubhamjha25/MindMap"
     },
     {
       name: 'Dictionary',
