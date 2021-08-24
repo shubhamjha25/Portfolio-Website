@@ -41,10 +41,15 @@
     padding: 0px 10px;
   }
   
+  @media(max-width: 768px){
+    .social-icons {
+      margin-top: 24vh;
+    }
+  }
 
   @media(max-width: 576px){
     .social-icons {
-      margin-top: 32vh;
+      margin-top: 25vh;
     }
     .sidenav {
       height: 100%; 
