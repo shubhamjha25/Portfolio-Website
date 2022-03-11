@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import SJ from '../../images/shubhamjha.jpg';
 import WEBDEV from '../../images/webdeveloper.png'
+import RESUME from '../../images/Shubham_Resume.pdf';
 
 const About = () => {
     return(
@@ -13,7 +14,7 @@ const About = () => {
                         <p>Innovative, Ambitious and a Forward-Thinking Tech Enthusiast ready to apply the skills he posses. Don't know whether I'm a quick learner or a slow learner, but I give my complete dedication and determination to the things I love to do. Always eager to learn new concepts of Computer Science.</p>
                         <div className="abt-btn-wrap">
                             <a className="abt-btn-1">Hire Me</a>
-                            <a className="abt-btn-2"><i className="fa fa-download"></i> Get CV</a>
+                            <a href={RESUME} target="_blank" className="abt-btn-2"><i className="fa fa-download"></i> Get CV</a>
                         </div>
                     </div>
                     <div className="abt-right">

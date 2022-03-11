@@ -53,6 +53,7 @@
 }
 
 .abt-btn-2{ 
+    text-decoration: none;
     padding: 11px 26px;
     border: 1px solid whitesmoke;
     border-radius: 20px;
