@@ -13,7 +13,7 @@ const About = () => {
                     <div className="abt-left">   
                         <p>Innovative, Ambitious and a Forward-Thinking Tech Enthusiast ready to apply the skills he posses. Don't know whether I'm a quick learner or a slow learner, but I give my complete dedication and determination to the things I love to do. Always eager to learn new concepts of Computer Science.</p>
                         <div className="abt-btn-wrap">
-                            <a className="abt-btn-1">Hire Me</a>
+                            <a href="https://www.linkedin.com/in/shubham-jha-252001/" target="_blank" className="abt-btn-1">Hire Me</a>
                             <a href={RESUME} target="_blank" className="abt-btn-2"><i className="fa fa-download"></i> Get CV</a>
                         </div>
                     </div>
